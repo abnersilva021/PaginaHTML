@@ -1,0 +1,25 @@
+*{
+    background-color: rgb(194, 191, 191);
+    text-align: center;
+}
+
+h1 {
+    color:blueviolet;
+    font-size: 30px;
+}
+/* Modificando a cor do titulo principal */
+.titulo-principal{
+    color:rgb(251, 255, 0);
+    font-size: 60px;
+    font-family:'Space Grotesk', sans-serif;
+}
+/* Modificando a imagem */
+.Logo-da-imagem{
+    width: 400px;
+    height: 300px;
+}
+
+.div-imagem{
+    text-align: center;
+    margin-bottom: 20px;
+}

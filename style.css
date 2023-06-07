@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Rubik+Puddles&display=swap');
+
+/* Estilização do cabeçalho */
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    line-height: 150%;
+}
+
+.header{
+    background-color: purple;
+    align-items: center;
+    padding: 14px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.header h1{
+    color: black;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik Puddles', cursive;
+    
+}
+
+.header .social a{
+    padding: 0 5;
+    text-decoration: nome;
+}
+
+/* Estilização de menu lateral */
+
+.left{
+    float: left;
+    width: 180px;
+    background-color: white;
+    height: 550px;
+    padding: 1em;
+}
+.left img{
+    margin-top:9px ;
+    margin-left:8px ;
+    
+}
+
+ul{
+    list-style-type: none;
+    border-left: 0px solid black;
+    margin: 0;
+    padding: 0 ;
+
+}
+
+li a{
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active{
+    background-color: purple;
+    color: white;
+    margin: 5px;
+}
+
+li a:hover:not(.active) {
+    background-color: purple;
+    color: white;
+}
+
+/* Estilização principal */
+
+.content{
+    margin-left: 200px;
+    border-left: 2px solid grey;
+    padding: 1em;
+}
+
+/* Estilização da tabela */
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin: 40px 0;
+}
+
+td,th {
+    border: 2px solid purple;
+    padding: 10px;
+
+}
+
+tr:nth-child(1) {
+    background-color: purple;
+    color:black;
+}
+
+tr td i.fan-brands{
+    text-align: center;
+    display: block;
+    font-size: 35px;
+}
+
+/* Estilização dp rodapé */
+
+.footer{
+    background-color: purple;
+    padding: 35px 10px;
+
+}
+
